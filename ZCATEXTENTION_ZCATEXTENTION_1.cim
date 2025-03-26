@@ -1,0 +1,31 @@
+{
+	"ProjectName": "ZCATEXTENTION",
+	"ApplicationName": "ZCATEXTENTION",
+	"ComponentVersion": "1",
+	"IntegrationPoints": [
+		{
+			"Source": "/ZCATEXTENTION/Pages/User/About.page",
+			"Target": "/SAPAssetManager/Pages/User/About.page"
+		},
+		{
+			"Source": "/ZCATEXTENTION/Pages/WorkOrders/WorkOrdersListView.page",
+			"Target": "/SAPAssetManager/Pages/WorkOrders/WorkOrdersListView.page"
+		},
+		{
+			"Source": "/ZCATEXTENTION/Pages/WorkOrders/WorkOrderDetails.page",
+			"Target": "/SAPAssetManager/Pages/WorkOrders/WorkOrderDetails.page"
+		},
+		{
+			"Source": "/ZCATEXTENTION/i18n/i18n.properties",
+			"Target": "/SAPAssetManager/i18n/i18n.properties"
+		},
+		{
+			"Source": "/ZCATEXTENTION/i18n/i18n_en.properties",
+			"Target": "/SAPAssetManager/i18n/i18n_en.properties"
+		},
+		{
+			"Source": "/ZCATEXTENTION/Rules/MobileStatus/RunMobileStatusUpdateSequence.js",
+			"Target": "/SAPAssetManager/Rules/MobileStatus/RunMobileStatusUpdateSequence.js"
+		}
+	]
+}
