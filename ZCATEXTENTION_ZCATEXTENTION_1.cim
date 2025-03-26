@@ -26,6 +26,18 @@
 		{
 			"Source": "/ZCATEXTENTION/Rules/MobileStatus/RunMobileStatusUpdateSequence.js",
 			"Target": "/SAPAssetManager/Rules/MobileStatus/RunMobileStatusUpdateSequence.js"
+		},
+		{
+			"Source": "/ZCATEXTENTION/Actions/Forms/SDF/FormRunnerNav.action",
+			"Target": "/SAPAssetManager/Actions/Forms/SDF/FormRunnerNav.action"
+		},
+		{
+			"Source": "/ZCATEXTENTION/Rules/Forms/SDF/FormRunnerNav.js",
+			"Target": "/SAPAssetManager/Rules/Forms/SDF/FormRunnerNav.js"
+		},
+		{
+			"Source": "/ZCATEXTENTION/Rules/Forms/SDF/FormInstanceData.js",
+			"Target": "/SAPAssetManager/Rules/Forms/SDF/FormInstanceData.js"
 		}
 	]
 }
